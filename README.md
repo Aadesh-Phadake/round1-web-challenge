@@ -1,7 +1,7 @@
 # Frontend Battle Round 1 Submission
 
 ## 🔗 Live Site
-[Your Live URL Here]
+[https://vercel.com/aadesh-phadakes-projects/serenity]
 
 ## 🚀 Setup Instructions
 1. Clone the repo
