@@ -1,7 +1,7 @@
 # Frontend Battle Round 1 Submission
 
 ## Live Site
-[https://vercel.com/aadesh-phadakes-projects/serenity]
+[https://serenity-umber-eta.vercel.app/]
 
 ## Setup Instructions
 1. Clone the repo
