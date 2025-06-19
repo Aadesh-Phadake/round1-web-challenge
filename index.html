@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serenity Spa & Salon - Luxury Wellness Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Loader -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="spa-logo">
+                <div class="lotus-petals">
+                    <div class="petal petal-1"></div>
+                    <div class="petal petal-2"></div>
+                    <div class="petal petal-3"></div>
+                    <div class="petal petal-4"></div>
+                </div>
+                <div class="center-circle"></div>
+            </div>
+            <div class="loading-text">Serenity</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Serenity</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#showcase" class="nav-link">Gallery</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+                <button class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg parallax-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text animate-on-scroll">
+                <h1 class="hero-title">
+                    <span class="line">Discover</span>
+                    <span class="line">True Serenity</span>
+                </h1>
+                <p class="hero-subtitle">Experience luxury wellness like never before. Where beauty meets tranquility in perfect harmony.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary ripple-btn">Book Now</button>
+                    <button class="btn btn-secondary ripple-btn">Explore Services</button>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Our Premium Services</h2>
+                <p class="section-subtitle">Indulge in our carefully curated wellness experiences</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Luxury Spa Treatments</h3>
+                    <p>Rejuvenating therapies using premium organic products for ultimate relaxation.</p>
+                    <div class="service-price">From $150</div>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Professional Hair Styling</h3>
+                    <p>Expert stylists creating stunning looks with the latest techniques and trends.</p>
+                    <div class="service-price">From $80</div>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <h3>Nail Art & Care</h3>
+                    <p>Exquisite manicures and pedicures with artistic designs and premium care.</p>
+                    <div class="service-price">From $45</div>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Facial Treatments</h3>
+                    <p>Advanced skincare solutions for glowing, healthy, and youthful complexion.</p>
+                    <div class="service-price">From $120</div>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Wellness Therapy</h3>
+                    <p>Holistic approach to wellness combining massage, aromatherapy, and meditation.</p>
+                    <div class="service-price">From $200</div>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>VIP Packages</h3>
+                    <p>Exclusive premium packages for the ultimate luxury spa experience.</p>
+                    <div class="service-price">From $500</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Why Choose Serenity</h2>
+                <p class="section-subtitle">Experience the difference with our world-class amenities</p>
+            </div>
+            <div class="features-content">
+                <div class="features-carousel">
+                    <div class="carousel-container">
+                        <div class="carousel-slide active">
+                            <div class="feature-item">
+                                <div class="feature-image">
+                                    <img src="https://thearchitectsdiary.com/wp-content/uploads/2024/10/spa-design-22-1024x683.jpg" alt="Luxury Environment">
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Luxury Environment</h3>
+                                    <p>Immerse yourself in an atmosphere of pure elegance and tranquility, designed to transport you to a world of serenity.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="feature-item">
+                                <div class="feature-image">
+                                    <img src="https://www.flawlessbymelissafox.com/cdn/shop/articles/YAKOBCHUK_VIACHESLAV_2_1.jpg?v=1744930750" alt="Expert Therapists">
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Expert Therapists</h3>
+                                    <p>Our certified professionals bring years of experience and passion to deliver exceptional treatments tailored to your needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="feature-item">
+                                <div class="feature-image">
+                                    <img src="https://mazasalonandspa.com/wp-content/uploads/elementor/thumbs/IMG_9136_Original-scaled-q6pkisinadgehpy04m50mji1oap0882di6d49r8qrs.jpg" alt="Premium Products">
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Premium Products</h3>
+                                    <p>We use only the finest organic and natural products sourced from around the world for your wellness journey.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-nav">
+                        <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                        <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="carousel-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase/Gallery Section -->
+    <section id="showcase" class="showcase">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Our Work Showcase</h2>
+                <p class="section-subtitle">Witness the artistry and transformation we create</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://images.squarespace-cdn.com/content/v1/6447eeb38baf0c31deed937f/f6df5eac-2e70-447f-9608-174cabb1114b/image-asset.png" alt="Spa Treatment">
+                    <div class="gallery-overlay">
+                        <h4>Relaxing Spa Session</h4>
+                        <p>Ultimate relaxation experience</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://i.pinimg.com/736x/cf/a5/f3/cfa5f37a5d579e84db76f45654bdf031.jpg" alt="Hair Styling">
+                    <div class="gallery-overlay">
+                        <h4>Professional Styling</h4>
+                        <p>Creative hair transformations</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://i.pinimg.com/736x/30/34/b3/3034b3a337bc85b5446381e19469cf7f.jpg" alt="Nail Art">
+                    <div class="gallery-overlay">
+                        <h4>Artistic Nail Design</h4>
+                        <p>Elegant nail art creations</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="https://dermindy.com/wp-content/uploads/2016/03/ThinkstockPhotos-187923649.jpg" alt="Facial Treatment">
+                    <div class="gallery-overlay">
+                        <h4>Rejuvenating Facials</h4>
+                        <p>Glowing skin transformations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">Real experiences from our valued customers</p>
+            </div>
+            <div class="testimonials-carousel">
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"An absolutely magical experience! The attention to detail and luxurious atmosphere made my day. I felt completely rejuvenated."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=80&h=80&fit=crop&crop=face" alt="Sarah Johnson">
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <span>Regular Client</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The staff is incredibly professional and the services are top-notch. This is my go-to place for relaxation and beauty treatments."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face" alt="Michael Chen">
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <span>VIP Member</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"From the moment I walked in, I knew this was special. The ambiance, service, and results exceeded all my expectations."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face" alt="Emma Davis">
+                            <div class="author-info">
+                                <h4>Emma Davis</h4>
+                                <span>Wellness Enthusiast</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Visit Our Sanctuary</h2>
+                <p class="section-subtitle">Begin your journey to wellness and beauty</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info animate-on-scroll">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>123 Serenity Boulevard<br>Wellness District, WD 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-SERENE</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@serenityspa.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon-Fri: 9AM-8PM<br>Sat-Sun: 10AM-6PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form animate-on-scroll">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone">
+                            <label for="phone">Phone Number</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary ripple-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Serenity Spa & Salon</h3>
+                    <p>Your journey to wellness and beauty begins here. Experience luxury like never before.</p>
+                    <div class="social-links">
+                        <a href="#" class="ripple-btn"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="ripple-btn"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="ripple-btn"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="ripple-btn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#showcase">Gallery</a></li>
+                        <li><a href="#testimonials">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Spa Treatments</a></li>
+                        <li><a href="#">Hair Styling</a></li>
+                        <li><a href="#">Nail Care</a></li>
+                        <li><a href="#">Facial Treatments</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to receive exclusive offers and wellness tips.</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Your email">
+                        <button class="ripple-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Serenity Spa & Salon. All rights reserved. | Built with AI assistance</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
